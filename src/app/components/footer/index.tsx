@@ -67,7 +67,7 @@ export default function Footer() {
                 <h4>Quick links</h4>
                 <ul>
                   <li>
-                    <Link href={"/"}>Home</Link>
+                    <Link href={"#empowerSection"}>Home</Link>
                   </li>
                   <li>
                     <Link href={"#playbookAidSection"}>About</Link>
@@ -76,7 +76,7 @@ export default function Footer() {
                     <Link href={"#FeaturesSection"}>Feature</Link>
                   </li>
                   <li>
-                    <Link href={"/"}>How It Works</Link>
+                    <Link href={"#HowItWorks"}>How It Works</Link>
                   </li>
                   <li>
                     <Link href={"#faqSection"}>Faq</Link>

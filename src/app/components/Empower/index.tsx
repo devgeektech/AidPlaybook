@@ -22,7 +22,7 @@ import ArrowupWhiteIcon from "@/app/icons/ArrowupWhiteIcon";
 import ArrowrightwhiteBgIcon from "@/app/icons/ArrowrightwhiteBgIcon";
 export default function Empower() {
   return (
-    <section className="empowerSection">
+    <section className="empowerSection" id="empowerSection">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">

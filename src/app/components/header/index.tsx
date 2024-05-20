@@ -17,10 +17,10 @@ export default function Header() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="">
-              <Nav.Link href="#features">Home</Nav.Link>
+              <Nav.Link href="#empowerSection">Home</Nav.Link>
               <Nav.Link href="#playbookAidSection">About</Nav.Link>
               <Nav.Link href="#FeaturesSection">Features</Nav.Link>
-              <Nav.Link href="#works">How It Works</Nav.Link>
+              <Nav.Link href="#HowItWorks">How It Works</Nav.Link>
               <Nav.Link href="#faqSection">FAQ</Nav.Link>
               <Nav.Link href="#getTouchSection">Contact</Nav.Link>
               <Link className="primaryBtn" href={"/registration"}><span>Get Started</span><label className="arrowUp"><Arrowup/></label><label className="arrowRight"><Arrowright/></label></Link>
