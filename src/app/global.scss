@@ -1,0 +1,217 @@
+@font-face { 
+    font-family: 'Urbanist-Regular';
+    src: url('../../public/fonts/Urbanist-Regular.eot');
+    src: url('../../public/fonts/Urbanist-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../../public/fonts/Urbanist-Regular.otf') format('otf'),
+         url('../../public/fonts/Urbanist-Regular.woff') format('woff'),
+         url('../../public/fonts/Urbanist-Regular.ttf') format('truetype'),
+         url('../../public/fonts/Urbanist-Regular.svg#Urbanist-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Urbanist-Light';
+    src: url('../../public/fonts/Urbanist-Light.eot');
+    src: url('../../public/fonts/Urbanist-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../public/fonts/Urbanist-Light.otf') format('otf'),
+         url('../../public/fonts/Urbanist-Light.woff') format('woff'),
+         url('../../public/fonts/Urbanist-Light.ttf') format('truetype'),
+         url('../../public/fonts/Urbanist-Light.svg#Urbanist-Light') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Urbanist-Medium';
+    src: url('../../public/fonts/Urbanist-Medium.eot');
+    src: url('../../public/fonts/Urbanist-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../../public/fonts/Urbanist-Medium.otf') format('otf'),
+         url('../../public/fonts/Urbanist-Medium.woff') format('woff'),
+         url('../../public/fonts/Urbanist-Medium.ttf') format('truetype'),
+         url('../../public/fonts/Urbanist-Medium.svg#Urbanist-Medium') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Urbanist-SemiBold';
+    src: url('../../public/fonts/Urbanist-SemiBold.eot');
+    src: url('../../public/fonts/Urbanist-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../../public/fonts/Urbanist-SemiBold.otf') format('otf'),
+         url('../../public/fonts/Urbanist-SemiBold.woff') format('woff'),
+         url('../../public/fonts/Urbanist-SemiBold.ttf') format('truetype'),
+         url('../../public/fonts/Urbanist-SemiBold.svg#Urbanist-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'Urbanist-Bold';
+    src: url('../../public/fonts/Urbanist-Bold.eot');
+    src: url('../../public/fonts/Urbanist-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../../public/fonts/Urbanist-Bold.otf') format('otf'),
+         url('../../public/fonts/Urbanist-Bold.woff') format('woff'),
+         url('../../public/fonts/Urbanist-Bold.ttf') format('truetype'),
+         url('../../public/fonts/Urbanist-Bold.svg#Urbanist-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import '~bootstrap/scss/bootstrap';
+a, button {
+    transition: 0.5s all ease-in-out;
+}
+button.primaryBtn.btn.btn-primary,a.primaryBtn {
+    border: 1.3px solid rgba(0, 0, 255, 1);
+    background: #fff;
+    color: rgba(0, 0, 255, 1);
+    border-radius: 100px;
+    position: relative;
+    padding: 15px 42px 15px 22px;
+    font-family: "Urbanist-Regular";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.4px;
+    letter-spacing: 0.5px;
+    transition: 0.5s all ease-in-out;
+    text-decoration: none;
+    &:hover {
+        background: rgb(0, 0, 255);
+        border: 1.3px solid rgba(0, 0, 255, 1);
+        color: #fff;
+        label.arrowRight { 
+            opacity: 1;
+        }
+        label.arrowUp {
+            opacity: 0;
+        }
+    }
+    span {
+        margin-right: 10px;
+    }
+    label {
+        position: absolute;
+        right: 20px;
+        transition: 0.5s all ease-in-out;
+    }
+    label.arrowRight {
+        opacity: 0;
+    }
+    
+}
+
+button.secondaryBtn.btn.btn-primary, a.secondaryBtn {
+    background: rgb(0, 0, 255);
+    border: 1.3px solid rgba(0, 0, 255, 1);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 100px;
+    position: relative;
+    padding: 15px 42px 15px 22px;
+    font-family: "Urbanist-Regular";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.4px;
+    letter-spacing: 0.5px;
+    transition: 0.5s all ease-in-out;
+    &:hover {
+        border: 1.3px solid rgba(0, 0, 255, 1);
+        background: #fff;
+        color: rgba(0, 0, 255, 1);
+        label.arrowRight { 
+            opacity: 1;
+        }
+        label.arrowUp {
+            opacity: 0;
+        }
+    }
+    span {
+        margin-right: 10px;
+    }
+    label {
+        position: absolute;
+        right: 20px;
+        transition: 0.5s all ease-in-out;
+    }
+    label.arrowRight {
+        opacity: 0;
+    }
+    
+}
+h1 {
+    font-family: 'Urbanist-Bold';
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    color: #fff;
+  }
+h2 {
+    font-family: 'Urbanist-Bold';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 62.4px;
+    text-align: left;
+    color: #fff;
+}
+h3 {
+    font-family: 'Urbanist-Bold';
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+    color: #fff;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1399px) {
+    h1 {
+        font-size: 52px;
+        line-height: 58px;
+    }
+    h2 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    h1 {
+        font-size: 42px;
+        line-height: 48px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h2,h3 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    button.primaryBtn.btn.btn-primary, a.primaryBtn,
+    button.secondaryBtn.btn.btn-primary, a.secondaryBtn {
+        padding: 15px 42px 15px 18px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    h2,h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .mb-30 {
+        margin-bottom: 20px;
+    }
+}

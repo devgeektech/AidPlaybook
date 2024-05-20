@@ -1,0 +1,130 @@
+section.faqSection {
+  padding: 70px 0;
+  h3 {
+    margin-bottom: 50px;
+  }
+  .accordion {
+    background-color: transparent;
+    .accordion-item {
+      background: transparent;
+      border: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 20px 0px;
+      border-radius: 0px;
+      h2.accordion-header {
+        font-family: "Urbanist-Semibold";
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26.4px;
+        text-align: left;
+        background: transparent !important;
+        color: #fff;
+        button.accordion-button {
+          background: transparent;
+          color: #fff;
+          box-shadow: none;
+          font-family: "Urbanist-Semibold";
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 26.4px;
+          text-align: left;
+          &::after {
+            content: "";
+            position: absolute;
+            background-image: url("../../../../public/images/angleIcon.svg");
+            background-size: 24px 24px;
+            width: 24px;
+            height: 24px;
+            right: 0px;
+          }
+        }
+      }
+      .accordion-body {
+        color: #fff;
+        font-family: "Urbanist-Regular";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.6px;
+        text-align: left;
+        padding-top: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  section.faqSection {
+    padding: 50px 0;
+    h3 {
+      margin-bottom: 30px;
+    }
+    .accordion {
+      .accordion-item {
+        h2.accordion-header {
+          button.accordion-button {
+            padding-top: 0;
+          }
+        }
+        .accordion-body {
+          padding-top: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  section.faqSection {
+    .accordion {
+      .accordion-item {
+        h2.accordion-header {
+          button.accordion-button {
+            font-size: 20px;
+          }
+        }
+        .accordion-body {
+          padding-bottom: 0;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section.faqSection {
+    padding: 20px 0;
+    .accordion {
+      .accordion-item {
+        h2.accordion-header {
+          button.accordion-button {
+            font-size: 16px;
+            line-height: 22px;
+            padding-bottom: 5px;
+          }
+        }
+        &:last-child {
+          padding-bottom: 0px;
+        }
+        .accordion-body {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  section.faqSection {
+    .accordion {
+      .accordion-item {
+        h2.accordion-header {
+          button.accordion-button {
+            padding-left: 0;
+          }
+        }
+        .accordion-body {
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}

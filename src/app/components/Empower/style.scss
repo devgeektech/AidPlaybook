@@ -1,0 +1,73 @@
+section.empowerSection {
+  padding: 150px 0;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: -350px;
+    top: -370px;
+    background-image: url('../../../../public/images/shadowup.svg');
+    background-size: 1000px 1000px;
+    width: 1000px;
+    height: 1000px;
+  }
+  .bannerContent {
+    position: relative;
+    .btnsWrap {
+      gap: 15px;
+      display: flex;
+      button.primaryBtn.btn.btn-primary {
+        border: 1px solid #fff;
+        &:hover {
+          border: 1px solid rgb(0, 0, 255);
+        }
+      }
+    }
+    p {
+      font-family: 'Urbanist-Light';
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26.4px;
+      text-align: left;
+      color: #fff;
+      margin: 20px 0 40px 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  section.empowerSection {
+    padding: 80px 0;
+    .bannerContent {
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section.empowerSection {
+    padding: 30px 0;
+    .row.align-items-center {
+      flex-direction: column-reverse;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  section.empowerSection {
+    .bannerContent {
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 15px 0;
+      }
+    }
+    .bannerContent {
+      .btnsWrap {
+        flex-direction: column;
+      }
+    }
+  }
+}

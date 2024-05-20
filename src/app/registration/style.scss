@@ -1,0 +1,123 @@
+.resgistrationPage {
+    padding: 200px 0 150px 0;
+    background: rgb(11, 9, 28);
+    .formWrapper {
+        background: rgba(128, 128, 128, 0.2);
+        padding: 50px 40px;
+        border-radius: 20px;
+        max-width: 850px;
+        margin: 20px auto;
+        // form {
+            label.form-label, label.form-check-label {
+                color: #fff;
+            }
+            .form-check-input[type=checkbox] {
+                width: 20px;
+                height: 20px;
+                &:checked {
+                    background-color: rgb(0, 0, 255);
+                    border: 1px solid rgba(0, 0, 255, 1);
+                }
+            }
+            .form-control, input[type="checkbox"] {
+                &:focus {
+                    box-shadow: none;
+                    border: 1px solid rgba(0, 0, 255, 1);
+                }
+            }
+            .form-control, .form-select, input[type="date"] {
+                border: 1px solid rgb(233, 238, 243);
+                font-family: "Urbanist-Light";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+                height: 60px;
+                border-radius: 6px;
+            }
+            textarea.form-control {
+                min-height: 120px;
+                resize: inherit;
+                border: 1px solid rgb(233, 238, 243);
+                font-family: "Urbanist-Light";
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 21.6px;
+                text-align: left;
+                border-radius: 6px;
+            }
+            button.secondaryBtn.btn.btn-primary {
+                min-width: 200px;
+            }
+        // }
+    }
+    .loaderWrapper {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        .spinner-border {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 999;
+            border-width: 8px;
+            width: 90px;
+            height: 90px;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .resgistrationPage {
+        .formWrapper {
+            // form {
+                .form-control,.form-select, input[type=date] {
+                    border: 1px solid rgb(233, 238, 243);
+                    font-family: "Urbanist-Light";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                    text-align: left;
+                    height: 45px;
+                    border-radius: 6px;
+                }
+            // }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .resgistrationPage {
+        padding: 150px 0 30px 0;
+        .formWrapper {
+            width: 90%;
+            // form {
+                .form-control,.form-select, input[type=date] {
+                    border: 1px solid rgb(233, 238, 243);
+                    font-family: "Urbanist-Light";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 21.6px;
+                    text-align: left;
+                    height: 45px;
+                    border-radius: 6px;
+                }
+            // }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .resgistrationPage {
+        padding: 120px 0 30px 0;
+        .formWrapper {
+            padding: 20px;
+        }
+    }
+}

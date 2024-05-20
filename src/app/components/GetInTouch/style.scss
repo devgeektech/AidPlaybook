@@ -1,0 +1,108 @@
+section.getTouchSection {
+    padding: 100px 0;
+    h3 {
+        margin-bottom: 50px;
+    }
+    .formContent {
+        .form-group {
+            margin-bottom: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+            &:last-child {
+                border-bottom: none;
+            }
+            label {
+                font-family: 'Urbanist-Bold';
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: left;
+                color: #fff;
+                margin-bottom: 14px;
+            }
+            a, p {
+                font-family: "Urbanist-Light";
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                text-decoration: none;
+                color: #fff;
+                svg {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .formWrapper {
+        background: rgba(128, 128, 128, 0.2);
+        padding: 50px 40px;
+        border-radius: 20px;
+        .form-control {
+            border: 1px solid rgba(233, 238, 243, 1);
+            font-family: 'Urbanist-Light';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 21.6px;
+            text-align: left;
+            height: 60px;
+            border-radius: 6px;
+            &:focus {
+                box-shadow: none;
+                border: 1px solid rgb(0, 0, 255);
+            }
+        }
+        textarea.form-control {
+            height: 120px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    section.getTouchSection {
+        padding: 50px 0;
+        .formContent {
+            .form-group {
+                margin-bottom: 20px;
+                padding-bottom: 20px;
+                a,p {
+                    font-size: 16px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .formWrapper {
+            padding: 30px;
+            .form-control {
+                height: 50px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    section.getTouchSection {
+        padding: 20px 0;
+        h3 {
+            margin-bottom: 20px;
+        }
+        .formContent {
+            .form-group {
+                label {
+                    font-size: 16px;
+                    line-height: 22px;
+                    margin-bottom: 10px;
+                }
+                a, p {
+                    font-size: 14px;
+                }
+            }
+        }
+        .formWrapper {
+            padding: 15px;
+            .form-control {
+                height: 42px;
+                font-size: 14px;
+            }
+        }
+    }
+}

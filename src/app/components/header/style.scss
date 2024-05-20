@@ -1,0 +1,105 @@
+header.header {
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    nav.navbar {
+        align-items: center;
+        padding: 0;
+        background-color: #fff;
+        a.navbar-brand {
+            padding: 0;
+        }
+        a.nav-link {
+            color: rgba(0, 0, 0, 1);
+            font-family: "Urbanist-Regular";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21.6px;
+            text-align: left;
+            padding: 0 !important;
+            margin: 0 30px;
+            position: relative;
+            &:hover {
+                color: rgba(0, 0, 255, 1);
+                &::after {
+                    width: 100%;
+                }
+            }
+            &::after {
+                border-bottom: 2px solid rgba(0, 0, 255, 1);
+                content: '';
+                position: absolute;
+                left: 0;
+                width: 0;
+                bottom: 0;
+                transition: 0.5s;
+            }
+            
+        }
+        a.nav-link.active {
+            color: rgba(0, 0, 255, 1);
+            &::after {
+                border-bottom: 2px solid rgba(0, 0, 255, 1);
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Media Query start 
+@media (min-width: 992px) {
+    header.header {
+        .navbar-expand-lg {
+            .navbar-collapse {
+                flex-basis: initial;
+                justify-content: flex-end;
+                .navbar-nav {
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    header.header {
+        nav.navbar {
+            .navbar-toggler.collapsed {
+                border: 1px solid rgba(0, 0, 0, 0.15);
+            }
+            button.navbar-toggler {
+                border: 1px solid  rgba(0, 0, 255, 1);
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            a.nav-link {
+                margin: 0 20px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    header.header {
+        div#responsive-navbar-nav {
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: #fff;
+            top: 76px;
+        }
+        nav.navbar {
+            .navbar-nav {
+                margin: 15px;
+                a.nav-link {
+                    margin: 6px 0px;
+                }
+            }
+            a.navbar-brand {
+                img {
+                    width: 75px;
+                    height: 75px;
+                }
+            }
+        }
+    }
+}

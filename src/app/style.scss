@@ -1,0 +1,10 @@
+.homepage {
+    background: rgba(11, 9, 28, 1);
+    padding-top: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+    .homepage {
+        padding-top: 75px;
+    }
+}

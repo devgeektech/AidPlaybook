@@ -1,0 +1,47 @@
+section.playbookAidSection {
+  padding: 70px 0;
+  .bannerImage {
+    padding-right: 70px;
+  }
+  .bannerContent {
+    padding-left: 70px;
+    p {
+      font-family: "Urbanist-Light";
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25.2px;
+      text-align: left;
+      color: #fff;
+      margin: 30px 0 0 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  section.playbookAidSection {
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  section.playbookAidSection {
+    .bannerContent {
+      padding-left: 0;
+      p {
+        margin: 20px 0 0 0;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  section.playbookAidSection {
+    padding: 20px 0;
+    .bannerContent {
+      padding-top: 15px;
+      p {
+        margin: 0px;
+      }
+    }
+  }
+}
