@@ -19,17 +19,22 @@ export async function POST(request: NextRequest) {
     declaration 
   } = await request.json();
 
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
+ 
+  var transporter = nodemailer.createTransport({
+    name: "ravel.faith",
+    host: "mail.ravel.faith",
+    port: 465,
+    secure: true,
     auth: {
-      user: "",
-      pass: "",
+      user: "verify@ravel.faith",
+      pass: "[xPW4^sdmCj4",
     },
-  });
+    tls: { rejectUnauthorized: false }
+});
 
   const mailOptions = {
-    from: "",
-    to: 'recipient@example.com', // Replace with the recipient's email
+    from: "jatinderkgeeks@gmail.com",
+    to: email, // Replace with the recipient's email
     subject: 'New Form Submission',
     text: `
       Full Name: ${fullName}

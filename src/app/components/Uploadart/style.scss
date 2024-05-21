@@ -1,0 +1,24 @@
+section.uploadArtSection {
+    padding: 200px 0 150px 0;
+    background: rgb(11, 9, 28);
+    margin: auto;
+    text-align: center;
+    h2 {
+        text-align: center;
+    }
+    span.btnWrap {
+        width: 200px;
+        display: inline-block;
+        overflow: hidden;
+        border: 1.3px solid rgb(0, 0, 255);
+        background: rgb(0, 0, 255);
+        color: #fff;
+        cursor: pointer;
+        input[type="file"] {
+            cursor: pointer;
+            opacity: 0;
+        }
+    }
+    
+    
+}
