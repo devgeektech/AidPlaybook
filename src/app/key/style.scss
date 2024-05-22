@@ -2,12 +2,44 @@ section.keyPage {
     padding: 220px 0 100px 0;
     background: rgb(11, 9, 28);
     .keyWrap {
-        max-width: 700px;
+        max-width: fit-content;
         margin: auto;
         border: 1.3px solid rgb(0, 0, 255);
         background: #fff;
         padding: 5px;
         border-radius: 6px;
         text-align: center;
+        .keyWrapInner {
+            position: relative;
+            padding-right: 25px;
+            button {
+                position: absolute;
+                right: -5px;
+                border: none;
+                background: #fff;
+                padding: 0 3px;
+                top: -2px;
+            }
+        }
+    }
+    .backBtn {
+        padding: 15px 0;
+        a.secondaryBtn {
+            display: inline-block;
+            padding: 10px 20px 10px 45px;
+            position: relative;
+            svg {
+                position: absolute;
+                left: 10px;
+                top: 8px;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section.keyPage {
+        padding: 120px 0px 40px 0px;
     }
 }

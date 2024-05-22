@@ -11,9 +11,9 @@ export default function Uploadart(props: any) {
   const [loading, setLoading] = useState(false);
   function handleChange(e: any) {
     setLoading(true);
-    setUploadStatus("File generating...");
+    setUploadStatus("File Uploading...");
     setTimeout(() => {
-      setUploadStatus("File encoding...");
+      setUploadStatus("File Saving in Blockchain...");
     }, 2000);
 
     setTimeout(() => {
