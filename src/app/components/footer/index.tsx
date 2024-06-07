@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import Link from "next/link";
 import "./style.scss";
-import Logo from "../../../../public/images/logo.svg";
+import Logo from "../../../../public/images/logo.png";
 import Arrowup from "@/app/icons/Arrowup";
 import Arrowright from "@/app/icons/Arrowright";
 import TwitterIcon from "@/app/icons/TwitterIcon";

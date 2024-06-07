@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Button, Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import Link from "next/link";
 import "./style.scss";
-import Logo from "../../../../public/images/logo.svg";
+import Logo from "../../../../public/images/logo.png";
 import Arrowup from "@/app/icons/Arrowup";
 import Arrowright from "@/app/icons/Arrowright";
 export default function Header() {
