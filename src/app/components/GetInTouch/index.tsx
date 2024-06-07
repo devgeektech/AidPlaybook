@@ -21,15 +21,15 @@ export default function Gettouch() {
             <div className="formContent">
               <div className="form-group d-flex flex-column">
                 <label>Call us on</label>
-                <Link href={"tel:+11234567890"}>
+                <Link href={"tel:4246259460"}>
                   <PhoneIcon />
-                  +1 123 456 7890
+                  424-625-9460
                 </Link>
               </div>
               <div className="form-group d-flex flex-column">
                 <label>Email</label>
-                <Link href={"mailTo:Support@playbookaid.com"}>
-                  <EnvlopeIcon /> Support@playbookaid.com
+                <Link href={"mailTo:support@playbookaid.com"}>
+                  <EnvlopeIcon /> support@playbookaid.com
                 </Link>
               </div>
               <div className="form-group d-flex flex-column">

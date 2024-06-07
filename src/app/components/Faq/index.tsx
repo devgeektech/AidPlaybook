@@ -16,21 +16,27 @@ export default function Faq() {
           <div className="col-sm-12">
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>What types of digital creations can I register?</Accordion.Header>
+                <Accordion.Header>Who can use Playbook AID?</Accordion.Header>
                 <Accordion.Body>
-                  Any original artwork created digitally, such as illustrations, graphic designs, and digital paintings.
+                  Playbook AID is great for families, the casual artist, creative enthusiasts, and professional artists who want to ensure their intellectual property is secured and kept uniquely theirs.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>How does the AI monitoring work?</Accordion.Header>
+                <Accordion.Header>What types of digital creations can I register?</Accordion.Header>
                 <Accordion.Body>
-                  Any original artwork created digitally, such as illustrations, graphic designs, and digital paintings.
+                  Any photographs, visual art, literary works, musical scores.
                 </Accordion.Body>
               </Accordion.Item>
-            <Accordion.Item eventKey="2">
-                <Accordion.Header>What do I do if I find my work being used without permission?</Accordion.Header>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>How can I utilize my Playbook AID Seal?</Accordion.Header>
                 <Accordion.Body>
-                  Any original artwork created digitally, such as illustrations, graphic designs, and digital paintings.
+                  You can use this on social media, your website and any other platform to share your work. It is your public declaration that you have registered your work and support responsible AI.
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>How do I sign up for Playbook AID?</Accordion.Header>
+                <Accordion.Body>
+                  It’s easy and just takes a few minutes to complete. Click on the Register button to start.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

@@ -27,11 +27,11 @@ export default function Empower() {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="bannerContent">
-                <h1>Empowering Creators, Safeguarding AI Innovations</h1>
+                <h1>Your Digital Creation, Your Ownership, Our Blockchain Registration</h1>
                 <p>Register, Protect, and Track Your Digital Creations with Blockchain Technology</p>
                 <div className="btnsWrap">
                   <Button className="secondaryBtn"><span>Get Started</span><label className="arrowUp"><ArrowupWhiteIcon/></label><label className="arrowRight"><ArrowrightwhiteBgIcon/></label></Button>
-                  <Button className="primaryBtn"><span>Get Started</span><label className="arrowUp"><Arrowup/></label><label className="arrowRight"><Arrowright/></label></Button>
+                  <Button className="primaryBtn"><span>Learn More</span><label className="arrowUp"><Arrowup/></label><label className="arrowRight"><Arrowright/></label></Button>
                 </div>
               </div>
             </div>

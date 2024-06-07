@@ -35,10 +35,10 @@ export default function Howitworks() {
                     </div>
                     <div className="col-md-6">
                       <div className="timelineRight">
-                        <h3>Sign Up and Upload Your Creation</h3>
+                        <h3>Sign Up and Upload Your Digital Creation.</h3>
                         <p>
                           {/* Join us, unleash your creativity! Sign up now and upload your creation to inspire the world with your unique talent. */}
-                          Join us and unleash your creativity! Sign up now and upload your work
+                          Join our community by signing up today.
                         </p>
                       </div>
                     </div>
@@ -48,9 +48,8 @@ export default function Howitworks() {
                       <div className="timelineRight">
                         <h3>Receive Your Blockchain Token</h3>
                         <p>
-                          {/* Unlock your digital assets! Sign up today to receive your blockchain token and enter the world of secure, decentralized transactions. */}
-                          Sign up today to receive your blockchain token.
-                          </p>
+                          Protect your work. Your unique blockchain token is secure and proof of your registration.
+                        </p>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -83,19 +82,18 @@ export default function Howitworks() {
                     </div>
                     <div className="col-md-6">
                       <div className="timelineRight">
-                        <h3>Get Your Digital Stamp</h3>
+                        <h3>Declare your Ownership</h3>
                         <p>
-                          {/* Step into your digital world confidently. Sign up now to get your digital stamp and authenticate your online presence with confidence. */}
-                          Leverage AID's advanced AI technology with all of your registered work.
-                          </p>
+                          When registering your digital creation, you receive a Playbook AID Digital Seal that lets others know you have authenticated your work.
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="row align-items-center even">
                     <div className="col-md-6">
                       <div className="timelineRight">
-                        <h3>Monitor Usage with Our AI Technology</h3>
-                        <p>Empower your insights! Utilize our advanced AI technology to monitor usage efficiently and optimize performance effortlessly.{" "}</p>
+                        <h3>Feel Secure. We’re Monitoring.</h3>
+                        <p> Our advanced technology confuses LLMs making your work less vulnerable. Stay informed with premium alerts if your work is being used without your permission.</p>
                       </div>
                     </div>
                     <div className="col-md-6">

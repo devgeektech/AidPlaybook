@@ -26,10 +26,10 @@ export default function Features() {
                   <SecureWhiteIcon />
                 </label>
               </div>
-              <h4>Secure Your Work, Gain Your Token</h4>
+              <h4>Register Your Work. Receive Your Token</h4>
               <p>
                 Register your digital artwork and receive a unique token as
-                proof of ownership, recorded forever on our immutable
+                proof of ownership, recorded on our immutable
                 blockchain.
               </p>
             </div>
@@ -44,10 +44,9 @@ export default function Features() {
                   <StampWhiteIcon />
                 </label>
               </div>
-              <h4>Proof of Authenticity with Our Digital Stamp</h4>
+              <h4>Proof of Authenticity With Our Digital Seal</h4>
               <p>
-                Every registered piece is returned with a Playbook AID stamp,
-                showcasing your commitment to innovation and authenticity.
+                Every registration includes a piece is returned with a Playbook AID seal, showing your commitment to responsible and ethical AI.
               </p>
             </div>
           </div>
@@ -61,11 +60,9 @@ export default function Features() {
                   <MonitorWhiteIcon />
                 </label>
               </div>
-              <h4>Advanced AI Monitoring</h4>
+              <h4>Monitoring Unauthorized Use</h4>
               <p>
-                Stay informed with our AI monitoring technology that alerts you
-                whenever your digital creation is used to train AI models,
-                keeping you in control.
+                Stay informed with alerts with our premium monitoring whenever your digital creation is used to train AI models.
               </p>
             </div>
           </div>

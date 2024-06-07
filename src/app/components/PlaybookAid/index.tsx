@@ -14,7 +14,7 @@ export default function PlaybookAid() {
             </div>
             <div className="col-md-6">
               <div className="bannerContent">
-                <h2>Why Playbook AID?</h2>
+                <h2>With our pioneering AI monitoring system, track where and how your art powers the future of AI.</h2>
                 <p>Playbook AID leverages advanced blockchain technology to register <strong>Your</strong> digital creations, ensuring your intellectual property is secured and uniquely yours. 
                  {/* With our pioneering AI monitoring system, track where and how your art powers the future of AI. */}
                   With our pioneering AI monitoring system, you can be confident that your digital creation is registered and identified.
